@@ -1,0 +1,135 @@
+body {
+    background-color: yellow;
+    height: 2000px;
+    padding: 90px;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+}
+
+h1.titulo {
+    background-image: url("alpes.jpg");
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 14px;
+}
+
+a {
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-top: 20px;
+    border-radius: 200px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h2 {
+    font-size: 32px;
+    color: rgb(245, 10, 147);
+}
+
+p.video {
+    color: rgb(66, 8, 59);
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background: lawngreen;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    height: 100%;
+    margin: 0;
+}
+
+li {
+    margin-right: 10px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 300ms;
+    border-radius: 200px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.menu li:hover {
+    background-color: #297733;
+    border-radius: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    height: 20px;
+    width: 60px;
+
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    float: left;
+    left: 5;
+    background-image: url(IMG/logo.png);
+    background-size: contain;
+    font-size: 0;
+}
+
+.conteudo {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto -10px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    border-top: 1px solid #666;
+    margin-top: 20px;
+    background-color: blueviolet;
+    position: unset;
+    bottom: 0;
+    margin-left: auto;
+    display: flex;
+}
+
+.menu2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 10px;
+    bottom: -250%;
+}
+
+p.rodape {
+    font-size: 14px;
+    text-align: center;
+}
